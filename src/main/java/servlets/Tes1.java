@@ -1,4 +1,4 @@
 package servlets;
 
-public class Test {
+public class Tes1 {
 }
