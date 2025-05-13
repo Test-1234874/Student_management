@@ -4,6 +4,14 @@ public class Student {
     private long id;
     private String name;
     private String address;
+    private byte age;
+
+    public Student(long id, String name, String address, byte age) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.age = age;
+    }
 
     @Override
     public String toString() {
@@ -15,7 +23,7 @@ public class Student {
                 '}';
     }
 
-    private byte age;
+
 
 
     public long getId() {
